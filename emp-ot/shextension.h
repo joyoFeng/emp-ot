@@ -9,6 +9,7 @@
 #include "emp-ot/miracl_np_ot.h"
 #endif
 
+using std::min;
 /** @addtogroup OT
   @{
  */

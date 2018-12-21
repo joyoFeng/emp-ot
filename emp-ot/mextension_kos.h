@@ -6,6 +6,9 @@
 #include "emp-ot/co.h"
 #include "emp-ot/ot_extension.h"
 #include "emp-tool/utils/sse.h"
+#include <algorithm>
+using std::min;
+
 /** @addtogroup OT
   @{
  */

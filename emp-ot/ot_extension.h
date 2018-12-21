@@ -16,7 +16,7 @@ class OTExtension: public OT { public:
 	OT * base_ot;
 	PRG prg;
 	const int l = 128;
-	const int block_size = 1024*16;
+	const static int block_size = 1024*16;
 
 	block *k0 = nullptr, *k1 = nullptr, 
 			* qT  = nullptr, *tT = nullptr, *tmp = nullptr, block_s;
